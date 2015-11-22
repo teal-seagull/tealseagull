@@ -23,7 +23,6 @@ footer {
   bottom: 0;
 }
 
-
 #home{
   padding-top: 50px;
   background-color: Teal;
@@ -47,4 +46,9 @@ footer {
 #contact{
   padding-top: 50px;
   background-color: Turquoise;
+}
+
+.navbar-brand{
+  position:relative;
+  top: -15px;
 }
