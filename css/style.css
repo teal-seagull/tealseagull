@@ -3,7 +3,7 @@ h1 {
   text-align: center;
 }
 
-aside {
+section {
   height: 95vh;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -24,35 +24,31 @@ footer {
 }
 
 #home{
-  padding-top: 90px;
+  padding-top: 150px;
   background-color: Teal;
 }
 
 #services{
-  padding-top: 90px;
+  padding-top: 150px;
   background-color: DeepSkyBlue;
 }
 
 #team{
-  padding-top: 90px;
+  padding-top: 150px;
   background-color: DarkSeaGreen;
 }
 
 #portfolio{
-  padding-top: 90px;
+  padding-top: 150px;
   background-color: SteelBlue;
 }
 
 #contact{
-  padding-top: 90px;
+  padding-top: 150px;
   background-color: Turquoise;
-}
-
-.navbar{
-  padding-top: 40px;
 }
 
 .navbar-brand{
   position:relative;
-  top: -60px;
+  top: -10px;
 }

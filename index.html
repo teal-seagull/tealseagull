@@ -16,11 +16,13 @@
 
   <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#"><img src="res/logo.png" alt="Logo" height="100" width="300"></a>
-      </div>
-      <div>
+    <aside class="container-fluid">
+      <aside class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img src="res/logo.png" alt="Logo" height="100" width="300">
+        </a>
+      </aside>
+      <aside>
         <ul class="nav navbar-nav navbar-right">
           <li class="active">
             <a href="#home">
@@ -43,39 +45,65 @@
               <span class="glyphicon glyphicon-comment"></span> Contact</a>
           </li>
         </ul>
-      </div>
-    </div>
+      </aside>
+    </aside>
   </nav>
 
-  <section>
-    <!-- Section 1 -->
-    <aside id="home">
-      <h1>Tealseagull</h1>
-      <p>Information about the company or somethign goes here.</p>
-    </aside>
+  <!-- Section 1 -->
+  <section id="home" class="container-fluid">
+    <h1>Tealseagull</h1>
+    <p>Information about the company or somethign goes here.</p>
+  </section>
 
-    <!-- Section 2 -->
-    <aside id="services">
-      <h1>Our Srvices</h1>
-      <p>Talk about the services we offer here.</p>
-    </aside>
+  <!-- Section 2 -->
+  <section id="services" class="container-fluid">
+    <h1>Our Srvices</h1>
+    <p>Talk about the services we offer here.</p>
+  </section>
 
-    <!-- Section 1 -->
-    <aside id="team">
-      <h1>Our Team</h1>
-      <p>Introduce the team, talk a bit about each one of us and focus on our expertises.</p>
-    </aside>
+  <!-- Section 3 -->
+  <section id="team" class="container-fluid">
+    <h1>Our Team</h1>
+    <p>Introduce the team, talk a bit about each one of us and focus on our expertises.</p>
+  </section>
 
-    <!-- Section 1 -->
-    <aside id="portfolio">
-      <h1>Our Work</h1>
-      <p>A showcase of our past work.</p>
-    </aside>
+  <!-- Section 4 -->
+  <section id="portfolio" class="container-fluid">
+    <h1>Our Work</h1>
+    <p>A showcase of our past work.</p>
+  </section>
 
-    <!-- Section 1 -->
-    <aside id="contact">
-      <h1>Get in contact with us</h1>
-      <p>Way to contact us and maybe feed goes here.</p>
+  <!-- Section 5 -->
+  <section id="contact" class="container-fluid">
+    <h2 class="text-center">CONTACT</h2>
+    <aside class="row">
+      <aside class="col-sm-5">
+        <p>Contact us and we'll get back to you within 24 hours.</p>
+        <p>
+          <span class="glyphicon glyphicon-map-marker"></span> New York, NY</p>
+        <p>
+          <span class="glyphicon glyphicon-phone"></span> +00 1510215</p>
+        <p>
+          <span class="glyphicon glyphicon-envelope"></span> hello@tealseagull.com</p>
+      </aside>
+      <aside class="col-sm-7">
+        <aside class="row">
+          <aside class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </aside>
+          <aside class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </aside>
+        </aside>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+        <br>
+        <aside class="row">
+          <aside class="col-sm-12 form-group">
+            <button class="btn btn-default pull-right" type="submit">Send</button>
+          </aside>
+        </aside>
+      </aside>
+    </aside>
     </aside>
   </section>
 
