@@ -48,7 +48,11 @@ footer {
   background-color: Turquoise;
 }
 
+.navbar{
+  padding-top: 40px;
+}
+
 .navbar-brand{
   position:relative;
-  top: -10px;
+  top: -20px;
 }
