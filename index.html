@@ -112,46 +112,35 @@
 
   <!-- Section 5 -->
   <section id="contact" class="container-fluid">
-    <aside class="concat">
-      <h3>Get in touch</h3>
-      <h4>Fill in the form below, and we'll get back to you within 24 hours.</h4>
-      <!-- Form -->
-      <form id="contact-form" action="/" method="post">
-        <div>
-          <label>
-            <span>Name: (required)</span>
-            <input placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
-          </label>
-        </div>
-        <div>
-          <label>
-            <span>Email: (required)</span>
-            <input placeholder="Please enter your email address" type="email" tabindex="2" required>
-          </label>
-        </div>
-        <div>
-          <label>
-            <span>Telephone: (required)</span>
-            <input placeholder="Please enter your number" type="tel" tabindex="3" required>
-          </label>
-        </div>
-        <div>
-          <label>
-            <span>Website: (required)</span>
-            <input placeholder="Begin with http://" type="url" tabindex="4" required>
-          </label>
-        </div>
-        <div>
-          <label>
-            <span>Message: (required)</span>
-            <textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
-          </label>
-        </div>
-        <div>
-          <button name="submit" type="submit" id="contact-submit">Send Email</button>
-        </div>
-      </form>
-      <!-- /Form -->
+    <h2 class="text-center">CONTACT</h2>
+    <aside class="row">
+      <aside class="col-sm-5">
+        <p>Contact us and we'll get back to you within 24 hours.</p>
+        <p>
+          <span class="glyphicon glyphicon-map-marker"></span> New York, NY</p>
+        <p>
+          <span class="glyphicon glyphicon-phone"></span> +00 15100215</p>
+        <p>
+          <span class="glyphicon glyphicon-envelope"></span> hello@tealseagull.com</p>
+      </aside>
+      <aside class="col-sm-7">
+        <aside class="row">
+          <aside class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </aside>
+          <aside class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </aside>
+        </aside>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+        <br>
+        <aside class="row">
+          <aside class="col-sm-12 form-group">
+            <button class="btn btn-default pull-right" type="submit">Send</button>
+          </aside>
+        </aside>
+      </aside>
+    </aside>
     </aside>
   </section>
 
