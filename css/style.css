@@ -29,7 +29,7 @@ footer {
 }
 
 #services{
-  padding-top: 150px;
+  padding-top: 300px;
   background-color: DeepSkyBlue;
 }
 
@@ -55,4 +55,13 @@ footer {
 .navbar-brand{
   position:relative;
   top: -60px;
+}
+
+/* Add an teal color to all icons and set the font-size */
+.logo-small {
+    color: Teal;
+}
+
+.logo {
+    color: Teal;
 }
