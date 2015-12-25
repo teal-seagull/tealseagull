@@ -1,10 +1,9 @@
 h1 {
-  font-size: 52px;
   text-align: center;
 }
 
 section {
-  height: 95vh;
+  min-height: 100vh;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #fff;
@@ -26,21 +25,25 @@ footer {
 #home{
   padding-top: 150px;
   background-color: Teal;
+  position: relative;
 }
 
 #services{
-  padding-top: 300px;
+  padding-top: 50px;
   background-color: DeepSkyBlue;
+  position: relative;
 }
 
 #team{
-  padding-top: 150px;
+  padding-top: 50px;
   background-color: DarkSeaGreen;
+  position: relative;
 }
 
 #portfolio{
-  padding-top: 150px;
+  padding-top: 50px;
   background-color: SteelBlue;
+  position: relative;
 }
 
 #contact{
@@ -48,6 +51,7 @@ footer {
   padding-left: 100px;
   padding-right: 100px;
   background-color: Turquoise;
+  position: relative;
 }
 
 .navbar{
@@ -66,4 +70,22 @@ footer {
 
 .logo {
     color: Teal;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.me {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: gray;
+}
+.displayed {
+  display: block;
+  margin-right: auto;
+  margin-left: auto
 }
