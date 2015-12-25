@@ -1,81 +1,96 @@
 h1 {
   text-align: center;
 }
-
-section {
-  min-height: 100vh;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: #fff;
-  bottom: 10px;
+.big-h {
+  font-size: 50px;
 }
-
 footer {
   background-color: #222222;
   color: gray;
   line-height: 20px;
   padding-top: 10px;
   padding-bottom: 6px;
-  position: fixed;
   text-align: center;
   width: 100%;
   bottom: 0;
 }
-
-#home{
+#home {
   padding-top: 150px;
   background-color: Teal;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 50px;
   position: relative;
 }
-
-#services{
+.space-up {
+  padding-top: 25px;
+}
+#services {
   padding-top: 50px;
   background-color: DeepSkyBlue;
+  padding-bottom: 50px;
   position: relative;
 }
-
-#team{
+#team {
   padding-top: 50px;
   background-color: DarkSeaGreen;
+  padding-bottom: 50px;
   position: relative;
 }
-
-#portfolio{
+#portfolio {
   padding-top: 50px;
   background-color: SteelBlue;
+  padding-bottom: 50px;
   position: relative;
 }
-
-#contact{
-  padding-top: 300px;
-  padding-left: 100px;
-  padding-right: 100px;
+#contact {
+  padding-top: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 50px;
   background-color: Turquoise;
   position: relative;
 }
-
-.navbar{
+.navbar {
   padding-top: 40px;
 }
-
-.navbar-brand{
-  position:relative;
+.navbar-brand {
+  position: relative;
   top: -60px;
 }
 
 /* Add an teal color to all icons and set the font-size */
+
 .logo-small {
-    color: Teal;
+  color: Teal;
 }
-
+.services-logo {
+  font-size: 80px;
+}
 .logo {
-    color: Teal;
+  color: Teal;
 }
-
-.center-text{
+.glyphicon-leaf {
+  color: Green;
+}
+.glyphicon-heart {
+  color: Red;
+}
+.glyphicon-certificate {
+  color: Orange;
+}
+.glyphicon-wrench {
+  color: Gray;
+}
+.glyphicon-lock {
+  color: Brown;
+}
+.glyphicon-off {
+  color: Black;
+}
+.center-text {
   text-align: center;
 }
-
 .me {
   width: 250px;
   height: 250px;
